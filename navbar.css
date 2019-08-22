@@ -1,17 +1,28 @@
 html,
-body {}
+body {
+
+}
 
 .header {
     height: 80px;
     width: 102%;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding-top: 10px ;
     border-bottom: 3px outset;
     border-radius: 2px;
     background-color: #92AE4A;
-    position: relative;
+    position: fixed;
     top: -8px;
-    right: 35px;
+    right: 0px;
+    width: 100%;
+    z-index: 10
+
+}
+
+.logo{
+    position: relative;
+    top: 55px;
 }
 
 .logohead {
