@@ -1,0 +1,129 @@
+html,
+body {}
+
+.header {
+    height: 85px;
+    width: 105%;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 3px outset;
+    border-radius: 2px;
+    background-color: #92AE4A;
+    position: relative;
+    top: -8px;
+    right: 35px;
+}
+
+.logohead {
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: -23px;
+}
+
+.headlist {
+    margin-right: 40px;
+    text-align: right;
+    top: -125px;
+    position: relative;
+    z-index: 10;
+}
+
+.list {
+    display: inline-flex;
+}
+
+.li1 {
+    margin: 0 5px;
+    border: outset;
+    animation: timing-function delay iteration-count direction fill-mode;
+    border-radius: 1000px;
+    display: inline-block;
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease;
+    background-color: #92AE4A;
+    color: #FFF;
+    transition: width 2s;
+    cursor: pointer;
+
+}
+
+.li2 {
+    margin: 0 5px;
+    border: outset;
+    animation: timing-function delay iteration-count direction fill-mode;
+    border-radius: 1000px;
+    display: inline-block;
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease;
+    background-color: #92AE4A;
+    color: #FFF;
+    transition: width 2s;
+    cursor: pointer;
+
+}
+
+.li3 {
+    margin: 0 5px;
+    border: outset;
+    animation: timing-function delay iteration-count direction fill-mode;
+    border-radius: 1000px;
+    display: inline-block;
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease;
+    background-color: #92AE4A;
+    color: #FFF;
+    transition: width 2s;
+    cursor: pointer;
+
+}
+
+.li4 {
+    margin: 0 5px;
+    border: outset;
+    animation: timing-function delay iteration-count direction fill-mode;
+    border-radius: 1000px;
+    display: inline-block;
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease;
+    background-color: #92AE4A;
+    color: #FFF;
+    transition: width 2s;
+    cursor: pointer;
+
+}
+
+.footer {
+    padding: 10px;
+    border-top: 3px outset;
+    background-color: #92AE4A;
+    bottom: -8px;
+    width: 100%;
+    text-align: center;
+    right: 10px;
+    position: relative;
+}

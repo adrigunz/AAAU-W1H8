@@ -5,17 +5,31 @@
     <title>HealthyFoodPage1</title>
     <link rel="stylesheet" type="text/css" href="HFStyling.css" />
     <link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
+    <div class="header">
+            <div class="logohead">
+                 <img src= "/home/ajiebhas/Hacktiv8/Ajie/AUCorpLogo.png"; style="width: 150px">
+            </div>
+            <div class="headlist">
+                <ul class="list">
+                    <button class="li1"><a href="#anchor_head">Home</a></button>
+                    <button class="li2"><a href="#anchor_healthy">Healthy</a></button>
+                    <button class="li3"><a href="#anchor_bad">Sickening</a></button>
+                    <button class="li4"><a href="#anchor_question">Form</a></button>
+                </ul>
+            </div>
+        </div>
 </head>
 
 <body>
-    <div class="logo">
+    <div class="logo" id="anchor_head">
         <img src="logo_transparent.png" style="width:400px">
     </div>
     <div class="page-title">
         <h1>What You Should Consume to be Healthier</h1>
     </div>
 
-    <div class="healthy">
+    <div class="healthy" id="anchor_healthy">
         <h2>Types of Healthy Food</h2>
         <p>Why Healthy Food?</p>
         <p class="desc-healthyfood">In today's modern era, people tends to go for a fast and quick solution to everything, including for their primary source of energy, which is food.<br> While in actuality, quick and instant food tends to bring dangerous chemical into people's
@@ -40,7 +54,7 @@
         </ul>
     </div>
 
-    <div class="bad">
+    <div class="bad" id="anchor_bad">
         <h2>Types of Sickening Food</h2>
         <p>Why do we need to avoid this type of food?</p>
         <p class="desc-badfood">The types of food that are shown below contains lots of highly dangerous substances which are slowly but surely shall reduce your life span by a large amount.<br> It is well-known that Junk Food contains a lot of substances which causes high amount
@@ -64,7 +78,7 @@
         </ul>
     </div>
 
-    <div class="question">
+    <div class="question" id="anchor_question">
         <!-- disini yang bikin tulisan dalam kotak kayak yang sono-sono -->
         <form>
             <fieldset>
@@ -72,7 +86,7 @@
                 <br>
                 <label><strong>Gender:</strong></label>
                 <input type="radio" name="jekel" />Male<input type="radio" name="jekel" />Female<br/>
-                <br>
+                <br>z-index: 10;
                 <label><strong>Age:</strong></label>
                 <input type="number"><br/>
                 <br>
@@ -108,7 +122,9 @@
 </body>
 <br>
 <footer>
-    <span> Copyright &copy; 2019. A&U Corporation. All Rights Reserved.</span>
+    <div class="footer">
+    <span class="text"> Copyright &copy; 2019. A&U Corporation. All Rights Reserved.</span>
+</div>
 </footer>
 
 </html>
