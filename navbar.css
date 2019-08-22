@@ -2,16 +2,16 @@ html,
 body {}
 
 .header {
-    height: 85px;
-    width: 100%;
+    height: 80px;
+    width: 102%;
     display: inline-block;
     margin: 0 auto;
     border-bottom: 3px outset;
     border-radius: 2px;
     background-color: #92AE4A;
     position: relative;
-    /* top: -8px; */
-    /* right: 35px; */
+    top: -8px;
+    right: 35px;
 }
 
 .logohead {
@@ -23,10 +23,10 @@ body {}
 
 .headlist {
     text-align: right;
-    top: -108px;
+    bottom: 125px;
     position: relative;
     z-index: 10;
-    right: 50px;
+    right: 30px;
 }
 
 .list {
